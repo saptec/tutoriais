@@ -80,6 +80,7 @@
   CTRL+O=> Salvar arquivo <br/>
   CTRL+S => Salvar arquivo
   </p>
+  
     ``` bash
     nano arquivo.txt
 
