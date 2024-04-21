@@ -4,23 +4,23 @@
 1. Instalar o git -
  [Linux | Windows | Mac](https://git-scm.com/)
 
-1. Configurar nome e e-mail para Git
+2. Configurar nome e e-mail para Git
  ``` bash
  git config --global user.name "Seu Nome"
  git config --global user.email "seu@email.com"
 
  ```
- 1. Na pasta do prjeto que queira fazer git 
+ 3. Na pasta do prjeto que queira fazer git 
  ``` bash
  git init
 
  ```
- 1. Cada iteração você pode executar seginte comando para verificar 
+ 4. Cada iteração você pode executar seginte comando para verificar 
  ``` bash
  git status
 
  ```
- 1. Adicionar o seu projeto o arquivo ao controle de versão 
+ 5. Adicionar o seu projeto o arquivo ao controle de versão 
  ``` bash
  git add nome-do-arquivo
 
@@ -28,17 +28,17 @@
  git add .
  
  ```
- 1. Fazer commit em sua aplicação | cada comite deve term uma mesagem diferente
+ 6. Fazer commit em sua aplicação | cada comite deve term uma mesagem diferente
  ``` bash
 git commit -m "Sua mensagem de commit aqui"
 
  ```
- 1. Cada commit você pode executar seginte comando ver historico
+ 6. Cada commit você pode executar seginte comando ver historico
  ``` bash
  git log
 
  ```
- 1. no seu terminal digite o comando abaixo para gerar chave ssh apert ENTER em tudo
+ 7. no seu terminal digite o comando abaixo para gerar chave ssh apert ENTER em tudo
  ``` bash
  ssh-keygen
 
@@ -69,5 +69,11 @@ git commit -m "Sua mensagem de commit aqui"
     git push -u origin main
 
     ```
+2. clonar o repositorio do GITHUB para seu computador
+    ``` bash
+    git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+    ```
+
     
  
